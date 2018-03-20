@@ -1,0 +1,26 @@
+{
+  "name": "graphql-compose-sequelize",
+  "version": "0.0.1",
+  "description": "Model converter to GraphQL types",
+  "main": "lib/index.js",
+  "author": "Stanislav Botev",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "graphql-compose": ">=3.0.3",
+    "sequelize": ">=4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "flow-bin": "^0.68.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js ./src"
+  }
+}
